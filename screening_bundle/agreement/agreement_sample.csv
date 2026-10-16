@@ -1,0 +1,134 @@
+order,id,title,year,found_in
+1,S138,MODEL BASED REINFORCEMENT LEARNING FOR ATARI,2020,Scopus
+2,I139,Unity3D Serious Game Engine for High Fidelity Virtual Reality Training of Remotely-Operated Vehicle Pilot,2018,IEEE Xplore
+3,I080,End-to-End Learning of Deep Visuomotor Policy for Needle Picking,2023,IEEE Xplore
+4,S423,Modeling Cyber Attacks and Resource Optimization for Enhancing Cyber Resilience,2025,Scopus
+5,I122,On the Influence of the Supine Posture on Simulation Sickness in Virtual Reality,2019,IEEE Xplore
+6,S306,PMA-DRL: A parallel model-augmented framework for deep reinforcement learning algorithms,2020,Scopus
+7,S457,"Vrbox: A virtual reality augmented sandbox for immersive playfulness, creativity and exploration",2018,Scopus; ACM DL
+8,S181,Planning Rational Behavior of Cognitive Semiotic Agents in a Dynamic Environment,2021,Scopus
+9,S102,Neural signatures of reinforcement learning correlate with strategy adoption during spatial navigation,2018,Scopus
+10,I195,Towards Dynamic World Model Generation with Monocular Video,2026,IEEE Xplore
+11,I092,Tutorial Sessions,2025,IEEE Xplore
+12,S239,Dyn-O: Building Structured World Models with Object-Centric Representations,2025,Scopus
+13,I097,Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation,2021,IEEE Xplore
+14,S278,Global Lighting Based on Functionally Defined Surfaces and Voxels in Real Time Using a GPU,2021,Scopus
+15,S055,MA2MB: Multi-agent mutual-advising model-based reinforcement learning for pursuit and evasion games,2026,Scopus
+16,S173,The neural architecture of theory-based reinforcement learning,2023,Scopus
+17,I263,Domain-Specific Probabilistic Programming with Multiverse Explorer,2023,IEEE Xplore
+18,S063,Model-Based Reinforcement Learning with Automated Planning for Network Management,2022,Scopus
+19,S004,Accurate and Efficient World Modeling with Masked Latent Transformer,2025,Scopus
+20,I225,UniFuture: A 4D Driving World Model for Future Generation and Perception,2026,IEEE Xplore
+21,S486,Efficient Reinforcement Learning for StarCraft by Abstract Forward Models and Transfer Learning,2022,Scopus; IEEE Xplore
+22,S369,Open-world reasoning for service robots,2019,Scopus
+23,I146,Gesture-Based Model of Mixed Reality Human-Computer Interface,2020,IEEE Xplore
+24,S422,Invisible Dynamic Mechanic Adjustment in Virtual Reality Games,2020,Scopus
+25,S371,Task-aware world model learning with meta weighting via bi-level optimization,2023,Scopus
+26,I205,Towards a Multivariate Scoring Metric for the Evaluation of Simulation Scenarios in Automated Driving,2022,IEEE Xplore
+27,S406,AI-Driven Personalized Fall Prevention for Older Adults,2025,Scopus
+28,S480,Review of Video Games & Simulation in Computer Science Education,2022,Scopus
+29,S125,Industrial Robotic Intelligence Simulation in Metaverse Scenes,2022,Scopus; IEEE Xplore
+30,S444,Vehicle Dynamics Embedded World Models for Autonomous Driving,2026,Scopus; IEEE Xplore
+31,S433,Learning Knowledge Graph-based World Models of Textual Environments,2021,Scopus
+32,S358,Long-Context State-Space Video World Models,2025,Scopus; IEEE Xplore
+33,S062,Integrated world modeling theory expanded: Implications for the future of consciousness,2022,Scopus
+34,I058,Enhancing Scalability in Reinforcement Learning for Open Spaces,2024,IEEE Xplore
+35,I228,Toxic Comment Detection and Suggestion System,2026,IEEE Xplore
+36,S240,Multi-Agent Model-Based Reinforcement Learning with Joint State-Action Learned Embeddings,2026,Scopus; ACM DL
+37,S029,Promptable Game Models: Text-guided Game Simulation via Masked Diffusion Models,2024,Scopus; ACM DL
+38,S490,UNBOUNDED: A GENERATIVE INFINITE GAME OF CHARACTER LIFE SIMULATION,2025,Scopus
+39,S231,Dynamic Neural Network Training for Self-Driving Cars in Generative Virtual Environments,2025,Scopus; IEEE Xplore
+40,I134,Learning Robotic Policy with Imagined Transition: Mitigating the Trade-Off Between Robustness and Optimality,2026,IEEE Xplore
+41,I071,Towards a multi-agent reinforcement learning approach for joint sensing and sharing in cognitive radio networks,2023,IEEE Xplore
+42,S324,From Text to Space: Mapping Abstract Spatial Models in LLMs During a Grid-World Navigation Task,2026,Scopus
+43,S153,ROS-based navigation in unknown environment with TangentBug Algorithm: issues of practical usage,2024,Scopus
+44,S142,"Model-based or model-free, a review of approaches in reinforcement learning",2020,Scopus; IEEE Xplore
+45,S261,EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling,2025,Scopus
+46,I086,AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction,2025,IEEE Xplore
+47,I111,From Crystallized Adaptivity to Fluid Adaptivity in Deep Reinforcement Learning — Insights from Biological Systems on Adaptive Flexibility,2019,IEEE Xplore
+48,S154,Singulation of objects in cluttered environment using dynamic estimation of physical properties,2019,Scopus
+49,S097,Model-Based DRL for Task Scheduling in Dynamic Environments for Cognitive Multifunction Radar,2024,Scopus; IEEE Xplore
+50,S415,STEP-UP: Enabling Low-Cost IMU Sensors to Predict the Type of Dementia During Everyday Stair Climbing,2022,Scopus
+51,S460,Variational Causal Dynamics: Discovering Modular World Models from Interventions,2023,Scopus
+52,S489,Multiagent Model-based Credit Assignment for Continuous Control,2022,Scopus; ACM DL
+53,S081,When Boston Isn’t Boston: Useful Lies of Reconstructive Game Models,2020,Scopus
+54,S294,DYNAMIC UPDATE-TO-DATA RATIO: MINIMIZING WORLD MODEL OVERFITTING,2023,Scopus
+55,I238,Towards Scalable P&ID Digitization: Evaluating Open-World Object Detectors for Symbol Recognition in P&ID Digitization Workflows,2026,IEEE Xplore
+56,S126,Peer-to-peer energy trading: A review of the literature,2021,Scopus
+57,S165,"A Model of Virtual Learning Environments Using Micro-Lecture, MOODLE, and SLOODLE",2020,Scopus; IEEE Xplore
+58,S315,Impact of an Endovascular Simulator and Video Games on Medical Student Procedural Outcomes and Interventional Radiology Interest,2026,Scopus
+59,S353,Thinker: Learning to Plan and Act,2023,Scopus
+60,S115,Arm Model for Elbow Motor Control,2025,Scopus; IEEE Xplore
+61,S479,World Model Agents with Change-Based Intrinsic Motivation,2025,Scopus
+62,S356,Inferring Time-delayed Causal Relations in POMDPs from the Principle of Independence of Cause and Mechanism,2021,Scopus
+63,S056,"The ETS2 Dataset, Synthetic Data from Video Games for Monocular Depth Estimation",2023,Scopus
+64,S068,The Looking Glass Framework: Using Virtual Reality and Video Game Simulations to Improve Clinical Decision-Making and Reduce Healthcare Disparities in African Americans,2024,Scopus
+65,S334,Building a Unified Transportation Digital Twin: Integrating Rapidex for Next-Gen 3D Traffic Modeling and Road Scene Generation,2024,Scopus; IEEE Xplore
+66,S095,Action-Conditioned Transformers for Decentralized Multi-Agent World Models,2026,Scopus
+67,S360,Regularizing Model Predictive Control for pixel-based long-horizon tasks,2025,Scopus
+68,S065,The World of Screen Creatures,2023,Scopus
+69,I124,Transfer Learning in Deep Reinforcement Learning: A Survey,2023,IEEE Xplore
+70,I191,World Models: The Safety Perspective,2024,IEEE Xplore
+71,S398,Peer Effects on Individual Performance in a Team Sport,2021,Scopus
+72,S067,DReCon: Data-driven responsive control of physics-based characters,2019,Scopus
+73,S132,Robust website fingerprinting through the cache occupancy channel,2019,Scopus
+74,S420,PHYSICAL WORLD GENERATION MODELS EMBEDDED IN DIGITAL TWIN FRAMEWORK: A NOVEL PARADIGM,2026,Scopus; IEEE Xplore
+75,I068,Missed Information: A Video Game Designed to Teach Methods of Spotting Fake News in Social Media,2021,IEEE Xplore
+76,S120,Evaluating the World Model Implicit in a Generative Model,2024,Scopus
+77,S192,Bridging the gaps: an updated mapping of the uses of immersive learning environments,2025,Scopus
+78,S320,Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning,2022,Scopus
+79,S257,Predicting Other's Minds Using Model-based Reinforcement Learning,2022,Scopus; IEEE Xplore
+80,S327,"Learning to play with intrinsically-motivated, self-aware agents",2018,Scopus
+81,I190,EmoFace: Audio-driven Emotional 3D Face Animation,2024,IEEE Xplore
+82,S453,Causal Dynamics Learning for Task-Independent State Abstraction,2022,Scopus
+83,I185,Enhanced Transfer Learning for Autonomous Driving with Systematic Accident Simulation,2020,IEEE Xplore
+84,S130,Security and privacy issues related to the workplace-based security robot system,2021,Scopus
+85,I073,Reinforcement Learning in Mathematical Decision-Making: Bridging Theory and Applications,2025,IEEE Xplore
+86,S454,Empowering Multimodal Large Language Model as A Small Rule-Abiding World Simulator,2025,Scopus; IEEE Xplore
+87,S339,A survey of unmanned aerial vehicle vision-language navigation from the perspective of embodied intelligence,2026,Scopus
+88,S215,DRAMA: MAMBA-ENABLED MODEL-BASED REINFORCEMENT LEARNING IS SAMPLE AND PARAMETER EFFICIENT,2025,Scopus
+89,S488,Bootstrap estimated uncertainty of the environment model for model-based reinforcement learning,2019,Scopus
+90,S027,Modular Networks Prevent Catastrophic Interference in Model-Based Multi-task Reinforcement Learning,2022,Scopus
+91,S464,Smaller World Models for Reinforcement Learning,2023,Scopus
+92,I035,A Model-Based Reinforcement Learning Algorithm for Multi-Agent Cooperation Nash Equilibrium With Unstable Communication,2024,IEEE Xplore
+93,S066,"Deriving a Data-Efficient, Generalist Agent Through World Models",2026,Scopus; IEEE Xplore
+94,I251,Digital Twin-Based Obstacle Avoidance for Unmanned Aerial Vehicles Using Feedforward-Feedback Control,2025,IEEE Xplore
+95,S445,Building a market simulation to teach business process analysis: effects of realism on engaged learning,2018,Scopus
+96,S042,Empirically Evaluating Flaky Tests for Autonomous Driving Systems in Simulated Environments,2025,Scopus; IEEE Xplore
+97,I166,Research on Development and Implementation of Virtual FilScene Based on Unity3D Technology,2023,IEEE Xplore
+98,S431,WALL-E: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents,2025,Scopus
+99,S088,Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling,2023,Scopus
+100,I011,MaxEnt Dreamer: Maximum Entropy Reinforcement Learning with World Model,2022,IEEE Xplore
+101,S416,Subjective Quality Assessment for Images Generated by Computer Graphics,2022,Scopus
+102,I123,Human--Machine Co-Adaptation for Robot-Assisted Rehabilitation via Dual-Agent Multiple Model Reinforcement Learning (DAMMRL),2026,IEEE Xplore
+103,I102,Model-Based Soft Actor-Critic,2021,IEEE Xplore
+104,I096,DynaPredict: Alternating Predictive and Real Iteration for Efficient Deep Reinforcement Learning Training,2026,IEEE Xplore
+105,S323,Exploring Islamic Architecture Through Virtual Realms: A 3D Open World Simulator Game Approach for Engaging and Educating,2024,Scopus; IEEE Xplore
+106,S203,Sensor-algorithmic Virtuality: Machinic World-making on Mars,2026,Scopus
+107,I137,A Two-Stage Cooperative Decision-Making Algorithm for Underwater Swarm Target Search and Encirclement Under Dynamic Games,2026,IEEE Xplore
+108,S252,World Model Anomaly Detection with a Latent Linear Prior,2026,Scopus
+109,S212,Leveraging Phylogenetics in Software Product Families: The Case of Latent Content Generation in Video Games,2024,Scopus
+110,S381,UniZero: Generalized and Efficient Planning with Scalable Latent World Models,2025,Scopus
+111,S361,Hybrid MCTS++: An Adaptive Optimizer for Enhanced Game-Playing Performance,2026,Scopus; IEEE Xplore
+112,S002,Latent Imagination Facilitates Zero-Shot Transfer in Autonomous Racing,2022,Scopus; IEEE Xplore
+113,S024,LANGUAGE-DRIVEN OPEN-VOCABULARY 3D SEMANTIC SEGMENTATION WITH KNOWLEDGE DISTILLATION,2024,Scopus; IEEE Xplore
+114,S421,Dual Process Dreamer: Fast and Slow Decision-Making with World Models,2026,Scopus
+115,S064,Learning Counterfactually Decoupled Attention for Open-World Model Attribution,2025,Scopus; IEEE Xplore
+116,S221,Model-Free versus Model-Based Reinforcement Learning for Fixed-Wing UAV Attitude Control Under Varying Wind Conditions,2024,Scopus
+117,I093,"Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods",2025,IEEE Xplore
+118,S248,Abstract Meaning Representation for Grounded Human-Robot Communication,2023,Scopus
+119,I131,Meta SAC-Lag: Towards Deployable Safe Reinforcement Learning via MetaGradient-based Hyperparameter Tuning,2024,IEEE Xplore
+120,S236,Algorithm-Hardware Co-Design for Efficient Vector Symbolic Autonomous World Modeling,2026,Scopus; ACM DL
+121,S191,From World Prediction to Interactive Simulation: A State-Managed Framework for Cosmos-like World Models,2026,Scopus; IEEE Xplore
+122,S447,Lighted-SAM: Lightening Open-World SAM for Low-Light Segmentation,2026,Scopus; IEEE Xplore
+123,S312,SNOW: Spatio-Temporal Scene Understanding with World Knowledge for Open-World Embodied Reasoning,2026,Scopus
+124,S207,TRANSFORMER-BASED WORLD MODELS ARE HAPPY WITH 100K INTERACTIONS,2023,Scopus
+125,I021,Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning,2024,IEEE Xplore
+126,S085,AUDETER: A Large-scale Dataset for Deepfake Audio Detection in Open Worlds,2026,Scopus; ACM DL
+127,I116,"Train in Austria, Race in Montecarlo: Generalized RL for Cross-Track F1<sup>tenth</sup> LIDAR-Based Races",2022,IEEE Xplore
+128,S108,A Data-driven Pricing Scheme for Optimal Routing through Artificial Currencies,2023,Scopus
+129,S016,Sample-Efficient Learning to Solve a Real-World Labyrinth Game Using Data-Augmented Model-Based Reinforcement Learning,2024,Scopus; IEEE Xplore
+130,S266,"The acceptance and use of virtual reality on learning attitude among junior boy scouts in Kuala Lumpur, Malaysia",2024,Scopus
+131,S190,A Causal World Model Underlying Next Token Prediction: Exploring GPT in a Controlled Environment,2025,Scopus
+132,S456,Embodying the Police: The Effects of Enclothed Cognition on Shooting Decisions,2020,Scopus
+133,I182,Railway Video Inspection System based on ACP Theory,2023,IEEE Xplore

@@ -1,0 +1,48 @@
+{
+  "title": "Interactive World Models for Games and Virtual Environments: title and abstract criteria",
+  "status": "DRAFT 16 Oct 2026. All three authors agree on this wording before the agreement round starts.",
+  "include": [
+    {
+      "code": "I1",
+      "label": "Game or virtual environment",
+      "description": "The model is built for or evaluated in a video game, virtual world or interactive simulated environment (for example Atari, Minecraft, StarCraft, Crafter, ViZDoom, a game engine or a VR world). A paper that also uses other domains counts if at least one evaluated domain is a game or virtual environment."
+    },
+    {
+      "code": "I2",
+      "label": "Learned model that responds to actions",
+      "description": "A learned model (world model, neural game engine, video or world simulator) predicts or generates the environment's next observations or states from player or agent actions, or is the environment an agent learns in (for example imagination training in model-based RL). Generated worlds the player can move through count."
+    },
+    {
+      "code": "I3",
+      "label": "Empirical study",
+      "description": "Presents a method, system or benchmark and evaluates it: experiments, benchmarks, comparisons or user studies. Outcomes include visual quality, action controllability, consistency or memory, latency or FPS, compute cost, playability, or agent performance."
+    },
+    {
+      "code": "I4",
+      "label": "Peer-reviewed full paper",
+      "description": "Journal article or full conference paper, in English, published 2018 to 2026."
+    }
+  ],
+  "exclude": [
+    {
+      "code": "E1",
+      "label": "No game or virtual environment",
+      "description": "Only real-world or non-game domains: driving footage, physical robots, drones, web agents, recommenders, finance, networking. Model-based RL tested only on continuous-control benchmarks (MuJoCo, DeepMind Control) also falls here."
+    },
+    {
+      "code": "E2",
+      "label": "No learned interactive environment model",
+      "description": "The model never generates or predicts observations from actions: a latent planning aid only, a hand-written simulator or game engine, procedural generation or 3D scene generation with no action response, or 'world model' in another sense (knowledge base, ontology, cognitive model, LLM world knowledge)."
+    },
+    {
+      "code": "E3",
+      "label": "No empirical evaluation",
+      "description": "Survey or review, position paper, editorial, tutorial, or a purely theoretical paper with no experiments."
+    },
+    {
+      "code": "E4",
+      "label": "Not a peer-reviewed full paper",
+      "description": "Preprint, thesis, workshop paper, extended abstract, poster, demo, lightning talk, book chapter, magazine item, proceedings front matter, or a paper not in English."
+    }
+  ]
+}

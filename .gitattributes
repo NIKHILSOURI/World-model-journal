@@ -1,0 +1,12 @@
+# Keep exported records and data byte-for-byte (no line-ending conversion),
+# so file hashes and the seeded sample stay reproducible.
+*.ris   -text
+*.bib   -text
+*.csv   -text
+*.json  -text
+*.xlsx  binary
+
+# Source and docs: let Git normalise line endings.
+*.py    text
+*.md    text
+*.html  text
