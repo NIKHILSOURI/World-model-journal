@@ -7,7 +7,7 @@ Reviewers: **Nikhil (R1), Tarun (R2), Sameen (R3)**. 662 deduplicated records (S
 | File | What it is |
 |---|---|
 | `screening_tool.html` | The Screening Desk for three reviewers. Open it in Chrome, Edge or Firefox. All records, sets and criteria are built in. |
-| `criteria.json` | Draft inclusion (I1 to I4) and exclusion (E1 to E4) criteria. Already built into the tool. |
+| `criteria.json` | The agreed inclusion (I1 to I6) and exclusion (E1 to E6) criteria. Already built into the tool. |
 | `corpus/Deduplicated_corpus_662_records.ris` | The full deduplicated corpus. |
 | `agreement/agreement_sample_133.ris` | Random 20% sample (133 records). **All three reviewers screen it.** |
 | `agreement/agreement_sample.csv` | The same 133 records as a list (order, ID, title, year, source). |
@@ -21,7 +21,7 @@ The scripts need Python 3 only, no extra packages. Run them from this folder.
 
 ## Before you start (all three together)
 
-1. Read `criteria.json` together and agree on the wording. If you change it, load the new file in the tool (Corpus tab, Criteria, "Load a different criteria.json") on each computer.
+1. The six criteria pairs in `criteria.json` are built into the tool, so there is nothing to load. If you change the wording later, load the new file in the tool (Corpus tab, Criteria, "Load a different criteria.json") on each computer.
 2. Batches are fixed by name: Nikhil screens Batch 1, Tarun Batch 2, Sameen Batch 3.
 
 ## Step 1: agreement round (each reviewer alone)
