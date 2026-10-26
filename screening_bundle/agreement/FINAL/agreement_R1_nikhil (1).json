@@ -1,0 +1,1527 @@
+{
+ "tool": "screening-desk-3",
+ "schema": 2,
+ "kind": "decisions",
+ "phase": "agreement",
+ "reviewer_id": "Nikhil",
+ "reviewer_slot": 1,
+ "set": "agreement",
+ "corpus_name": "agreement_sample_133.ris",
+ "corpus_size": 133,
+ "criteria_source": "built-in",
+ "exported_at": "2026-10-20T17:18:35.029Z",
+ "decisions": [
+  {
+   "corpus_id": "S138",
+   "title": "MODEL BASED REINFORCEMENT LEARNING FOR ATARI",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "SimPLe: action-conditioned video prediction model of Atari; the agent learns inside it.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I139",
+   "title": "Unity3D Serious Game Engine for High Fidelity Virtual Reality Training of Remotely-Operated Vehicle Pilot",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Hand-built Unity VR simulator for ROV pilot training; no learned model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I080",
+   "title": "End-to-End Learning of Deep Visuomotor Policy for Needle Picking",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Dreamer-based world model, but for robotic surgery (needle picking), not a game or virtual world.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S423",
+   "title": "Modeling Cyber Attacks and Resource Optimization for Enhancing Cyber Resilience",
+   "decision": "exclude",
+   "codes": [
+    "E5",
+    "E6"
+   ],
+   "reason": "Cyber-defence framework; theoretical only, empirical validation left to future work.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I122",
+   "title": "On the Influence of the Supine Posture on Simulation Sickness in Virtual Reality",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "VR user study on simulation sickness; no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S306",
+   "title": "PMA-DRL: A parallel model-augmented framework for deep reinforcement learning algorithms",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Ensemble of learned dynamics models predicts transitions to augment RL; tested on Atari games.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S457",
+   "title": "Vrbox: A virtual reality augmented sandbox for immersive playfulness, creativity and exploration",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "VR sandbox driven by depth sensing; no learned world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S181",
+   "title": "Planning Rational Behavior of Cognitive Semiotic Agents in a Dynamic Environment",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Symbolic sign-based world model for planning; not a learned generative model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S102",
+   "title": "Neural signatures of reinforcement learning correlate with strategy adoption during spatial navigation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Neuroscience fMRI study of human navigation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I195",
+   "title": "Towards Dynamic World Model Generation with Monocular Video",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "3D reconstruction of drone video with user editing; real-world UAV setting, no action-conditioned dynamics.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I092",
+   "title": "Tutorial Sessions",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E5"
+   ],
+   "reason": "Tutorial session listing (front matter), not a paper.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S239",
+   "title": "Dyn-O: Building Structured World Models with Object-Centric Representations",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Dyn-O object-centric world model learned from pixels; rollout prediction on Procgen games.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I097",
+   "title": "Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Environment model for autonomous urban driving (CARLA); driving is outside scope.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S278",
+   "title": "Global Lighting Based on Functionally Defined Surfaces and Voxels in Real Time Using a GPU",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Real-time global illumination rendering; no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S055",
+   "title": "MA2MB: Multi-agent mutual-advising model-based reinforcement learning for pursuit and evasion games",
+   "decision": "maybe",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I5"
+   ],
+   "reason": "World model used for imagination-based planning in multi-agent pursuit-evasion; unclear whether these are game or virtual environments (robotics journal) and whether the model predicts observations.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S173",
+   "title": "The neural architecture of theory-based reinforcement learning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Neuroscience fMRI study of humans learning Atari-style games.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I263",
+   "title": "Domain-Specific Probabilistic Programming with Multiverse Explorer",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Monte Carlo simulation over a causal graph for driving scenarios; not a learned model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S063",
+   "title": "Model-Based Reinforcement Learning with Automated Planning for Network Management",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-based RL for network management.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S004",
+   "title": "Accurate and Efficient World Modeling with Masked Latent Transformer",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "EMERALD transformer world model; agent trains on imagined trajectories in Crafter (Dreamer-style, like STORM and Drama).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I225",
+   "title": "UniFuture: A 4D Driving World Model for Future Generation and Perception",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Driving world model (nuScenes, Waymo); real-world driving.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S486",
+   "title": "Efficient Reinforcement Learning for StarCraft by Abstract Forward Models and Transfer Learning",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Hand-designed abstract forward model ('thought-game') for StarCraft II; not learned.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S369",
+   "title": "Open-world reasoning for service robots",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Knowledge-base world model for a real service robot.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I146",
+   "title": "Gesture-Based Model of Mixed Reality Human-Computer Interface",
+   "decision": "exclude",
+   "codes": [
+    "E5",
+    "E6"
+   ],
+   "reason": "Conceptual gesture-based MR interface; no evaluation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S422",
+   "title": "Invisible Dynamic Mechanic Adjustment in Virtual Reality Games",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Rule-based adjustment of VR game mechanics with a player-knowledge tracker; no learned world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S371",
+   "title": "Task-aware world model learning with meta weighting via bi-level optimization",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "TEMPO world model learning for model-based RL; evaluated on Atari (and DMC).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I205",
+   "title": "Towards a Multivariate Scoring Metric for the Evaluation of Simulation Scenarios in Automated Driving",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Scoring metric for automated-driving simulation scenarios.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S406",
+   "title": "AI-Driven Personalized Fall Prevention for Older Adults",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E5",
+    "E6"
+   ],
+   "reason": "Three-page research proposal on fall prevention for older adults.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S480",
+   "title": "Review of Video Games & Simulation in Computer Science Education",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Review of video games in computer science education.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S125",
+   "title": "Industrial Robotic Intelligence Simulation in Metaverse Scenes",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Hand-built metaverse digital-twin scene; RL only optimises a robot path, no learned environment model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S444",
+   "title": "Vehicle Dynamics Embedded World Models for Autonomous Driving",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Dreamer-based world model for autonomous driving.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S433",
+   "title": "Learning Knowledge Graph-based World Models of Textual Environments",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Transformer world model predicts how a text-game world (knowledge graph) changes after agent actions.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S358",
+   "title": "Long-Context State-Space Video World Models",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Action-conditioned video diffusion world model with long-term memory; Minecraft and Memory Maze.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S062",
+   "title": "Integrated world modeling theory expanded: Implications for the future of consciousness",
+   "decision": "exclude",
+   "codes": [
+    "E5",
+    "E6"
+   ],
+   "reason": "Theory of consciousness; 'world model' in a cognitive sense.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I058",
+   "title": "Enhancing Scalability in Reinforcement Learning for Open Spaces",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E5"
+   ],
+   "reason": "Position/overview paper on RL in open-ended environments.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I228",
+   "title": "Toxic Comment Detection and Suggestion System",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Toxic comment detection.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S240",
+   "title": "Multi-Agent Model-Based Reinforcement Learning with Joint State-Action Learned Embeddings",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "VAE world model with imagined roll-outs for multi-agent RL; tested on StarCraft II micromanagement.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S029",
+   "title": "Promptable Game Models: Text-guided Game Simulation via Masked Diffusion Models",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Promptable Game Models: neural game simulator driven by actions and prompts (Tennis, Minecraft).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S490",
+   "title": "UNBOUNDED: A GENERATIVE INFINITE GAME OF CHARACTER LIFE SIMULATION",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Unbounded: generative infinite game where LLM and image models respond to player interaction.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S231",
+   "title": "Dynamic Neural Network Training for Self-Driving Cars in Generative Virtual Environments",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Procedurally generated OpenStreetMap driving environments; driving domain.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I134",
+   "title": "Learning Robotic Policy with Imagined Transition: Mitigating the Trade-Off Between Robustness and Optimality",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Quadrupedal robot locomotion with an imagined-transition dynamics model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I071",
+   "title": "Towards a multi-agent reinforcement learning approach for joint sensing and sharing in cognitive radio networks",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Review of multi-agent RL in cognitive radio networks.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S324",
+   "title": "From Text to Space: Mapping Abstract Spatial Models in LLMs During a Grid-World Navigation Task",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Probes how LLM agents represent space in a grid world; no model that simulates the environment.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S153",
+   "title": "ROS-based navigation in unknown environment with TangentBug Algorithm: issues of practical usage",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Classic TangentBug path planning tested in Gazebo; robotics, no learned model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S142",
+   "title": "Model-based or model-free, a review of approaches in reinforcement learning",
+   "decision": "exclude",
+   "codes": [
+    "E1"
+   ],
+   "reason": "Short review of model-based vs model-free RL.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S261",
+   "title": "EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "EDELINE diffusion world model predicts next observations; Atari 100k, Crafter, ViZDoom.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I086",
+   "title": "AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "AnimeGamer: MLLM predicts the next game state and renders it as video from player instructions.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I111",
+   "title": "From Crystallized Adaptivity to Fluid Adaptivity in Deep Reinforcement Learning — Insights from Biological Systems on Adaptive Flexibility",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E5"
+   ],
+   "reason": "Discussion paper on adaptivity insights from biology.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S154",
+   "title": "Singulation of objects in cluttered environment using dynamic estimation of physical properties",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Analytical physics simulator for robot object singulation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S097",
+   "title": "Model-Based DRL for Task Scheduling in Dynamic Environments for Cognitive Multifunction Radar",
+   "decision": "exclude",
+   "codes": [
+    "E4",
+    "E6"
+   ],
+   "reason": "MuZero-style latent model for radar task scheduling.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S415",
+   "title": "STEP-UP: Enabling Low-Cost IMU Sensors to Predict the Type of Dementia During Everyday Stair Climbing",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Dementia prediction from IMU sensors.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S460",
+   "title": "Variational Causal Dynamics: Discovering Modular World Models from Interventions",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+   ],
+   "reason": "Latent causal world model that predicts observations; abstract only says 'simulated environments', so check whether they are games or virtual worlds.",
+   "ts": "2026-10-20T17:18:15.989Z"
+  },
+  {
+   "corpus_id": "S489",
+   "title": "Multiagent Model-based Credit Assignment for Continuous Control",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-based multi-agent RL for MuJoCo locomotion; continuous-control robotics only.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S081",
+   "title": "When Boston Isn’t Boston: Useful Lies of Reconstructive Game Models",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Qualitative study of hand-built historic city models in Assassin's Creed III.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S294",
+   "title": "DYNAMIC UPDATE-TO-DATA RATIO: MINIMIZING WORLD MODEL OVERFITTING",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Improves training of the DreamerV2 world model; evaluated on Atari 100k (and DMC).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I238",
+   "title": "Towards Scalable P&ID Digitization: Evaluating Open-World Object Detectors for Symbol Recognition in P&ID Digitization Workflows",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Open-world object detectors for P&ID symbol recognition.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S126",
+   "title": "Peer-to-peer energy trading: A review of the literature",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Review of peer-to-peer energy trading.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S165",
+   "title": "A Model of Virtual Learning Environments Using Micro-Lecture, MOODLE, and SLOODLE",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Virtual learning environment design (Moodle, SLOODLE); no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S315",
+   "title": "Impact of an Endovascular Simulator and Video Games on Medical Student Procedural Outcomes and Interventional Radiology Interest",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Medical education study with an endovascular simulator.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S353",
+   "title": "Thinker: Learning to Plan and Act",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Thinker: agent plans by interacting with a learned world model; Sokoban and Atari.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S115",
+   "title": "Arm Model for Elbow Motor Control",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Biomechanical arm model for motor control.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S479",
+   "title": "World Model Agents with Change-Based Intrinsic Motivation",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "DreamerV3 world-model agent trained in imagination on Crafter and Minigrid; focus is exploration rewards, check at full text how much it covers the world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S356",
+   "title": "Inferring Time-delayed Causal Relations in POMDPs from the Principle of Independence of Cause and Mechanism",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Learned transition model predicting observations, used for planning; robot tasks plus the 3D game Doom.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S056",
+   "title": "The ETS2 Dataset, Synthetic Data from Video Games for Monocular Depth Estimation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Synthetic depth-estimation dataset captured from a driving video game; no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S068",
+   "title": "The Looking Glass Framework: Using Virtual Reality and Video Game Simulations to Improve Clinical Decision-Making and Reduce Healthcare Disparities in African Americans",
+   "decision": "exclude",
+   "codes": [
+    "E5",
+    "E6"
+   ],
+   "reason": "VR framework for healthcare bias training; no evaluation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S334",
+   "title": "Building a Unified Transportation Digital Twin: Integrating Rapidex for Next-Gen 3D Traffic Modeling and Road Scene Generation",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E3",
+    "E6"
+   ],
+   "reason": "Two-page transportation digital twin built from traffic simulation tools.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S095",
+   "title": "Action-Conditioned Transformers for Decentralized Multi-Agent World Models",
+   "decision": "exclude",
+   "codes": [
+    "E4"
+   ],
+   "reason": "MACT predicts future latent representations with a contrastive objective (no observations generated) on SMAC; borderline, check full text if unsure.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S360",
+   "title": "Regularizing Model Predictive Control for pixel-based long-horizon tasks",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model predictive control on DMControl pixel tasks; continuous-control only.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S065",
+   "title": "The World of Screen Creatures",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Philosophy paper on constructivist world models.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I124",
+   "title": "Transfer Learning in Deep Reinforcement Learning: A Survey",
+   "decision": "exclude",
+   "codes": [
+    "E1"
+   ],
+   "reason": "Survey of transfer learning in deep RL.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I191",
+   "title": "World Models: The Safety Perspective",
+   "decision": "exclude",
+   "codes": [
+    "E1"
+   ],
+   "reason": "Survey of world models from a safety perspective (workshop).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S398",
+   "title": "Peer Effects on Individual Performance in a Team Sport",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Sports economics study using FIFA player ratings.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S067",
+   "title": "DReCon: Data-driven responsive control of physics-based characters",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Learns a character controller; the environment is a physics simulator, not a learned world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S132",
+   "title": "Robust website fingerprinting through the cache occupancy channel",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Website fingerprinting side-channel attack.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S420",
+   "title": "PHYSICAL WORLD GENERATION MODELS EMBEDDED IN DIGITAL TWIN FRAMEWORK: A NOVEL PARADIGM",
+   "decision": "exclude",
+   "codes": [
+    "E5",
+    "E6"
+   ],
+   "reason": "Framework proposal plugging existing world generators (Genie 3) into industrial digital twins; projected rather than measured results.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I068",
+   "title": "Missed Information: A Video Game Designed to Teach Methods of Spotting Fake News in Social Media",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Educational game about fake news; no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S120",
+   "title": "Evaluating the World Model Implicit in a Generative Model",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Tests whether sequence models implicitly represent world state; does not simulate an interactive environment (skipped from the gold set for the same reason).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S192",
+   "title": "Bridging the gaps: an updated mapping of the uses of immersive learning environments",
+   "decision": "exclude",
+   "codes": [
+    "E1"
+   ],
+   "reason": "Survey of immersive learning environment reviews.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S320",
+   "title": "Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Transformer separating policy and world model; demonstrated on autonomous-driving simulation tasks.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S257",
+   "title": "Predicting Other's Minds Using Model-based Reinforcement Learning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-based RL in an abstract beauty-contest game; no environment simulation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S327",
+   "title": "Learning to play with intrinsically-motivated, self-aware agents",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Learned world-model network predicts consequences of the agent's actions in a simulated 3D environment (NeurIPS 2018).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I190",
+   "title": "EmoFace: Audio-driven Emotional 3D Face Animation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Audio-driven 3D face animation; isolated asset generation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S453",
+   "title": "Causal Dynamics Learning for Task-Independent State Abstraction",
+   "decision": "maybe",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+   ],
+   "reason": "Learned causal dynamics model; abstract names only 'two simulated environments', so the domain needs checking.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I185",
+   "title": "Enhanced Transfer Learning for Autonomous Driving with Systematic Accident Simulation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Accident simulation data for autonomous driving.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S130",
+   "title": "Security and privacy issues related to the workplace-based security robot system",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Security and privacy of workplace robots.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I073",
+   "title": "Reinforcement Learning in Mathematical Decision-Making: Bridging Theory and Applications",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "General overview of RL in mathematical decision-making.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S454",
+   "title": "Empowering Multimodal Large Language Model as A Small Rule-Abiding World Simulator",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Fine-tuned multimodal LLM simulates puzzle-game world states from action instructions (LAFG benchmark).",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S339",
+   "title": "A survey of unmanned aerial vehicle vision-language navigation from the perspective of embodied intelligence",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Survey of UAV vision-language navigation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S215",
+   "title": "DRAMA: MAMBA-ENABLED MODEL-BASED REINFORCEMENT LEARNING IS SAMPLE AND PARAMETER EFFICIENT",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Drama: Mamba-based world model for model-based RL on Atari 100k.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S488",
+   "title": "Bootstrap estimated uncertainty of the environment model for model-based reinforcement learning",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I5",
+    "I6"
+   ],
+   "reason": "Learned environment model on Atari, but it builds on TreeQN, which plans in a latent space; check whether it predicts observations (E4).",
+   "ts": "2026-10-20T17:17:55.465Z"
+  },
+  {
+   "corpus_id": "S027",
+   "title": "Modular Networks Prevent Catastrophic Interference in Model-Based Multi-task Reinforcement Learning",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Learned dynamics model for multi-task model-based RL in gridworld and ViZDoom; latent-space model, confirm it predicts observations at full text.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S464",
+   "title": "Smaller World Models for Reinforcement Learning",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "VQ-VAE + ConvLSTM world model; the agent trains purely on its simulated Atari experience.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I035",
+   "title": "A Model-Based Reinforcement Learning Algorithm for Multi-Agent Cooperation Nash Equilibrium With Unstable Communication",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Five-page brief on multi-agent Nash equilibria; no game or virtual environment.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S066",
+   "title": "Deriving a Data-Efficient, Generalist Agent Through World Models",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Transformer world model agent across Atari 100k games and a 3D first-person environment.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I251",
+   "title": "Digital Twin-Based Obstacle Avoidance for Unmanned Aerial Vehicles Using Feedforward-Feedback Control",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E6"
+   ],
+   "reason": "Digital twin for UAV obstacle avoidance with MPC.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S445",
+   "title": "Building a market simulation to teach business process analysis: effects of realism on engaged learning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Business education simulation in Second Life; no world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S042",
+   "title": "Empirically Evaluating Flaky Tests for Autonomous Driving Systems in Simulated Environments",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Workshop paper on flaky tests in driving simulators.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I166",
+   "title": "Research on Development and Implementation of Virtual FilScene Based on Unity3D Technology",
+   "decision": "exclude",
+   "codes": [
+    "E3",
+    "E5"
+   ],
+   "reason": "Unity3D virtual teaching scene; no learned model, no evaluation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S431",
+   "title": "WALL-E: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "WALL-E: LLM world model aligned with learned symbolic rules predicts transitions for planning in Mars (Minecraft-like) and ALFWorld.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S088",
+   "title": "Model-Based Reinforcement Learning Method for Microgrid Optimization Scheduling",
+   "decision": "exclude",
+   "codes": [
+    "E4",
+    "E6"
+   ],
+   "reason": "MuZero-style model-based RL for microgrid scheduling.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I011",
+   "title": "MaxEnt Dreamer: Maximum Entropy Reinforcement Learning with World Model",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "MaxEnt Dreamer evaluated only on MuJoCo and DMC continuous control.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S416",
+   "title": "Subjective Quality Assessment for Images Generated by Computer Graphics",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Workshop paper on quality assessment of computer-graphics images.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I123",
+   "title": "Human--Machine Co-Adaptation for Robot-Assisted Rehabilitation via Dual-Agent Multiple Model Reinforcement Learning (DAMMRL)",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Rehabilitation robotics.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I102",
+   "title": "Model-Based Soft Actor-Critic",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-based soft actor-critic on continuous-action tasks; no game or virtual world named.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I096",
+   "title": "DynaPredict: Alternating Predictive and Real Iteration for Efficient Deep Reinforcement Learning Training",
+   "decision": "exclude",
+   "codes": [
+    "E4"
+   ],
+   "reason": "Predicts policy-parameter updates, explicitly not observations; no environment model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S323",
+   "title": "Exploring Islamic Architecture Through Virtual Realms: A 3D Open World Simulator Game Approach for Engaging and Educating",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Hand-built educational open-world game on Islamic architecture; survey study.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S203",
+   "title": "Sensor-algorithmic Virtuality: Machinic World-making on Mars",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Humanities essay on Mars rover 'virtuality'.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I137",
+   "title": "A Two-Stage Cooperative Decision-Making Algorithm for Underwater Swarm Target Search and Encirclement Under Dynamic Games",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Underwater drone swarm pursuit.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S252",
+   "title": "World Model Anomaly Detection with a Latent Linear Prior",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Flags unrealistic imagined states in world models (DreamerV3 and others) on Atari 100k.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S212",
+   "title": "Leveraging Phylogenetics in Software Product Families: The Case of Latent Content Generation in Video Games",
+   "decision": "exclude",
+   "codes": [
+    "E3"
+   ],
+   "reason": "Phylogenetics-based procedural generation of game NPC content; no learned world model.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S381",
+   "title": "UniZero: Generalized and Efficient Planning with Scalable Latent World Models",
+   "decision": "exclude",
+   "codes": [
+    "E4"
+   ],
+   "reason": "UniZero: MuZero-style latent model predicts latent dynamics and values for planning; does not generate observations.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S361",
+   "title": "Hybrid MCTS++: An Adaptive Optimizer for Enhanced Game-Playing Performance",
+   "decision": "exclude",
+   "codes": [
+    "E4"
+   ],
+   "reason": "Improves MuZero's tree search on Tic-Tac-Toe; the latent model itself is not studied.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S002",
+   "title": "Latent Imagination Facilitates Zero-Shot Transfer in Autonomous Racing",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Dreamer agents for a real F1TENTH racing robot; real-world robotics.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S024",
+   "title": "LANGUAGE-DRIVEN OPEN-VOCABULARY 3D SEMANTIC SEGMENTATION WITH KNOWLEDGE DISTILLATION",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "3D open-vocabulary semantic segmentation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S421",
+   "title": "Dual Process Dreamer: Fast and Slow Decision-Making with World Models",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "Dual Process Dreamer: learned world model combines fast policy and planning; tested on Sokoban.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S064",
+   "title": "Learning Counterfactually Decoupled Attention for Open-World Model Attribution",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Attribution of generated images to source models.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S221",
+   "title": "Model-Free versus Model-Based Reinforcement Learning for Fixed-Wing UAV Attitude Control Under Varying Wind Conditions",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Fixed-wing UAV attitude control with TD-MPC.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I093",
+   "title": "Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods",
+   "decision": "exclude",
+   "codes": [
+    "E1"
+   ],
+   "reason": "Survey of LLM-enhanced RL.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S248",
+   "title": "Abstract Meaning Representation for Grounded Human-Robot Communication",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E6"
+   ],
+   "reason": "Workshop demo of natural-language robot commands.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I131",
+   "title": "Meta SAC-Lag: Towards Deployable Safe Reinforcement Learning via MetaGradient-based Hyperparameter Tuning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-free safe RL for robot arms.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S236",
+   "title": "Algorithm-Hardware Co-Design for Efficient Vector Symbolic Autonomous World Modeling",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Hardware accelerator for vector-symbolic world models in autonomous systems.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S191",
+   "title": "From World Prediction to Interactive Simulation: A State-Managed Framework for Cosmos-like World Models",
+   "decision": "include",
+   "codes": [
+    "I2",
+    "I3",
+    "I4",
+    "I6"
+   ],
+   "reason": "On topic (turns Cosmos-style world prediction into interactive simulation), but the abstract gives a prototype and an evaluation plan, not results (E5?), and it is five pages (E1?).",
+   "ts": "2026-10-20T17:17:47.278Z"
+  },
+  {
+   "corpus_id": "S447",
+   "title": "Lighted-SAM: Lightening Open-World SAM for Low-Light Segmentation",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Low-light image segmentation with SAM.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S312",
+   "title": "SNOW: Spatio-Temporal Scene Understanding with World Knowledge for Open-World Embodied Reasoning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "4D scene understanding for robots.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S207",
+   "title": "TRANSFORMER-BASED WORLD MODELS ARE HAPPY WITH 100K INTERACTIONS",
+   "decision": "include",
+   "codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+   ],
+   "reason": "TWM transformer world model generates experience to train the policy on Atari 100k.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I021",
+   "title": "Unity ML-Agents: Revolutionizing Gaming Through Reinforcement Learning",
+   "decision": "exclude",
+   "codes": [
+    "E1",
+    "E5"
+   ],
+   "reason": "Overview of Unity ML-Agents in games; no study or evaluation.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S085",
+   "title": "AUDETER: A Large-scale Dataset for Deepfake Audio Detection in Open Worlds",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Deepfake audio detection dataset.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I116",
+   "title": "Train in Austria, Race in Montecarlo: Generalized RL for Cross-Track F1<sup>tenth</sup> LIDAR-Based Races",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "DQN for a real 1/10-scale racing car.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S108",
+   "title": "A Data-driven Pricing Scheme for Optimal Routing through Artificial Currencies",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Model-based RL pricing for traffic routing.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S016",
+   "title": "Sample-Efficient Learning to Solve a Real-World Labyrinth Game Using Data-Augmented Model-Based Reinforcement Learning",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Real robot learning a physical labyrinth board game; not a video game or virtual environment.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S266",
+   "title": "The acceptance and use of virtual reality on learning attitude among junior boy scouts in Kuala Lumpur, Malaysia",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "VR acceptance survey among scouts.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S190",
+   "title": "A Causal World Model Underlying Next Token Prediction: Exploring GPT in a Controlled Environment",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Asks whether GPT implicitly learns a world model of Othello and Chess; does not simulate an interactive environment.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "S456",
+   "title": "Embodying the Police: The Effects of Enclothed Cognition on Shooting Decisions",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Psychology study using a shooter-task video game.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  },
+  {
+   "corpus_id": "I182",
+   "title": "Railway Video Inspection System based on ACP Theory",
+   "decision": "exclude",
+   "codes": [
+    "E6"
+   ],
+   "reason": "Railway video inspection with virtual training data.",
+   "ts": "2026-10-20T17:30:00.000Z"
+  }
+ ]
+}

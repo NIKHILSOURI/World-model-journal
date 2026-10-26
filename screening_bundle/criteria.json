@@ -14,13 +14,13 @@
     },
     {
       "code": "I3",
-      "label": "Learned generative or predictive model",
-      "description": "Studies applying learned generative or predictive models, such as diffusion models, transformers, GANs, neural simulators, latent dynamics models, deep learning models, or graph-based models, to generate or simulate interactive world models for games or virtual environments."
+      "label": "Learned world or environment model",
+      "description": "Studies using machine learning to construct, represent, predict, generate, or simulate virtual environments or their dynamics."
     },
     {
       "code": "I4",
-      "label": "Responds to player or agent actions",
-      "description": "Studies where the model generates, predicts, or simulates an environment in response to player or agent actions."
+      "label": "Interactive or action-responsive modeling",
+      "description": "Studies where a learned model predicts environment changes from agent/player actions, or enables users to interact with or modify a generated virtual environment. Predictions may be visual, structural, or latent."
     },
     {
       "code": "I5",
@@ -51,8 +51,8 @@
     },
     {
       "code": "E4",
-      "label": "Latent states or rewards only",
-      "description": "Studies whose world model only predicts latent states or rewards for planning, without generating observations of the environment."
+      "label": "No meaningful environment interaction or modeling",
+      "description": "Models producing only isolated/static assets, standalone reward or value predictions, or representations without environment dynamics or interactive scene modification."
     },
     {
       "code": "E5",
