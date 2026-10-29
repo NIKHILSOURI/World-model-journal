@@ -30,13 +30,15 @@ The scripts need Python 3 only, no extra packages. Run them from this folder.
 2. The Phase switch shows **Agreement** and the 133-record sample opens by itself.
 3. On the **Screen** tab, go through all 133. For each record, tick the criteria the abstract meets (left column) or fails (right column), then press **Keep** (1), **Maybe** (2) or **Discard** (3).
    * Keep needs at least one I code, Discard at least one E code, Maybe a short reason.
+   * E5 is for full-text screening only, so it cannot be the only code on a Discard. An abstract that describes an implemented system but reports no results is kept (I5).
+   * Every export records the criteria version (`criteria_version`). The Resolve tab warns if the files were screened under different versions.
    * Do not discuss records with each other during this round.
 4. Your decisions are saved in your browser as you go. When you finish, go to the **Corpus** tab and click **Export decisions (JSON)**. You get `agreement_R1_nikhil.json`, `agreement_R2_tarun.json` or `agreement_R3_sameen.json`.
 5. Send your file to the other two reviewers.
 
 ## Step 2: agreement check and reconciling (together)
 
-1. One person opens the tool, goes to **Resolve**, and drops in all three JSON files.
+1. One person opens the tool, goes to **Resolve**, and drops in the JSON files. Two or three files both work: with two reviewers the pass mark is Cohen's kappa, with three it is Fleiss' kappa.
 2. The pass mark is **binary Fleiss' kappa of 0.80 or more**, with Maybe counted as Keep. The tab also shows pairwise Cohen's kappa for each pair of reviewers, Krippendorff's alpha, how the votes split, and which criteria codes the disagreements came from.
 3. **If it passes:** go through every record in the Reconcile list (all disagreements plus every Maybe), agree on Keep or Discard, and click **Export final decisions**. Save it as `agreement/adjudicated_agreement_sample.json`. Click **Export agreement summary (.md)** for the numbers and a draft methods paragraph.
 4. **If it does not pass:** reword the criteria that pull apart, draw a new sample with a new seed (`python scripts/draw_sample.py --seed 20261017`), and do the agreement round again on the new sample. Do not re-score the same records.
@@ -68,5 +70,5 @@ It writes `fulltext/title_abstract_decisions.csv` (every record with its final d
 
 * Decisions are stored per browser, per set and per name. Use the same browser every time, and export at the end of each session as a backup. **Import a decisions file** on the Corpus tab restores an export.
 * Switching phase or name never deletes anything; each set keeps its own decisions.
-* Agreement uses all records the three files share, so all three must screen the full sample before you compare.
+* Agreement uses only the records every loaded file shares, so each reviewer should finish the full sample before you compare. The Resolve tab tells you how many records were left out.
 * Sample size: 20% (133 records) was chosen over 10% (66) because with three reviewers and a likely keep rate under 25%, a 66-record sample would hold too few Keeps for a stable kappa. For a 10% sample run `python scripts/draw_sample.py --fraction 0.10`.

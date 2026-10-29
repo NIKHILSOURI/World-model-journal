@@ -1,5 +1,6 @@
 {
   "title": "Interactive World Models for Games and Virtual Environments: inclusion and exclusion criteria",
+  "version": "2026-10-29",
   "status": "",
   "include": [
     {
@@ -10,7 +11,7 @@
     {
       "code": "I2",
       "label": "2018 to 2026, or foundational",
-      "description": "Research mainly from 2018–2026, with important earlier foundational world-model studies included."
+      "description": "Research mainly from 2018 to 2026, with important earlier foundational world-model studies included."
     },
     {
       "code": "I3",
@@ -20,17 +21,17 @@
     {
       "code": "I4",
       "label": "Interactive or action-responsive modeling",
-      "description": "Studies where a learned model predicts environment changes from agent/player actions, or enables users to interact with or modify a generated virtual environment. Predictions may be visual, structural, or latent."
+      "description": "Studies where a learned model predicts environment changes from agent or player actions, or enables users to interact with or modify a generated virtual environment. Predictions may be visual, structural, or latent. Learned action-conditioned transition models (e.g. Dreamer, MuZero, TreeQN-style models) qualify, including studies whose main contribution is training, planning, or exploration built on such a model."
     },
     {
       "code": "I5",
-      "label": "Reports an evaluation",
-      "description": "Studies reporting technical, interaction, benchmark, or human evaluation."
+      "label": "Evaluation",
+      "description": "Studies reporting technical, interaction, benchmark, or human evaluation. At title/abstract screening, studies describing an implemented system are retained even if the abstract reports no results; evaluation is verified at full-text screening."
     },
     {
       "code": "I6",
-      "label": "Games or virtual environments",
-      "description": "Studies involving games, virtual worlds, or interactive simulated environments."
+      "label": "Domain",
+      "description": "Studies involving games, virtual worlds, or interactive simulated environments, including driving simulators (e.g. CARLA) and simulated control benchmarks (e.g. DMC, MuJoCo)."
     }
   ],
   "exclude": [
@@ -46,23 +47,23 @@
     },
     {
       "code": "E3",
-      "label": "Only procedural or non-learned simulation",
-      "description": "Studies using only traditional procedural generation or non-learned simulation."
+      "label": "No learned world model",
+      "description": "Only procedural simulation, conventional game engines or physics simulators, or AI policies without a learned environment model."
     },
     {
       "code": "E4",
       "label": "No meaningful environment interaction or modeling",
-      "description": "Models producing only isolated/static assets, standalone reward or value predictions, or representations without environment dynamics or interactive scene modification."
+      "description": "Models producing only isolated or static assets, standalone reward, value, or policy-parameter predictions, or representations without environment dynamics or interactive scene modification."
     },
     {
       "code": "E5",
       "label": "No meaningful evaluation",
-      "description": "Studies with no meaningful evaluation."
+      "description": "Applied at full-text screening only: studies with no measured evaluation (e.g. purely conceptual frameworks, planned or projected results)."
     },
     {
       "code": "E6",
-      "label": "Unrelated domain or isolated assets",
-      "description": "Studies focused on unrelated domains or isolated asset generation without an interactive environment."
+      "label": "Out-of-scope domain",
+      "description": "Studies focused on robots (physical hardware, manipulation, locomotion, surgical or aerial robot control, sim-to-real transfer), real-world recorded datasets, unrelated non-interactive domains (e.g. networks, energy, radar, finance), or isolated asset generation without an interactive environment."
     }
   ]
 }
